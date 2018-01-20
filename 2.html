@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ji suan qi</title>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+
+</head>
+<body>
+<div id="div">
+    <table >
+        <tr><td colspan="4"><input type="text" v-model="msg" style="width: 250px;height: 50px;font-size: 20px"></td></tr>
+        <tr>
+            <td ><button class="ui inverted green button" @click="add">1</button></td>
+            <td><button class="ui inverted green button" @click="add">2</button></td>
+            <td><button class="ui inverted green button" @click="add">3</button></td>
+            <td><button class="ui inverted green button" @click="add">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="ui inverted red button" @click="add">4</button></td>
+            <td><button class="ui inverted red button" @click="add">5</button></td>
+            <td><button class="ui inverted red button" @click="add">6</button></td>
+            <td><button class="ui inverted red button" @click="add">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="ui inverted teal button" @click="add">7</button></td>
+            <td><button class="ui inverted teal button" @click="add">8</button></td>
+            <td><button class="ui inverted teal button"@click="add">9</button></td>
+            <td><button class="ui inverted teal button"@click="add">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="ui inverted blue  button"@click="add">.</button></td>
+            <td><button class="ui inverted blue  button"@click="add">0</button></td>
+            <td><button class="ui inverted blue  button"@click="add">=</button></td>
+            <td><button class="ui inverted blue  button"@click="add">/</button></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center"><button @click="add" class="ui inverted blue  button">C</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+<script src="js/vue.js"></script>
+<script src="2.js"></script>
